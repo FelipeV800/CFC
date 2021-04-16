@@ -11,7 +11,29 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="nav-link" href="./index.html"><span class="oi oi-home home-icon"></span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavCollapse" aria-controls="navbarNavDropdown" aria-expanded="false" aria-level="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-3" id="NavCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="./index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about.html">¿Quienes somos?</a></li>
+                <li class="nav-item"><a class="nav-link" href="./proyects.html">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="./certificate.html">Certificaciones</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contact.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="d-flex jumbotron justify-content-between flex-wrap">
+        <div class="col-sm-6">
+            <hgroup>
+                <h1>Consultores financieros</h1>
+                <h2>& Contables</h2>
+            </hgroup>
+        </div>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
