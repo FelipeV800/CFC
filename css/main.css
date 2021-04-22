@@ -1,0 +1,17 @@
+.jumbotron {
+    background-color:#22346a;
+    color:#ffffff;
+    padding-top: 60px;
+}
+
+.navbg {
+    background-color: #22346a;
+}
+
+#thumbimg {
+    margin-top:0px;
+    margin-bottom: 0px;
+    height: 200px;
+    width: 200px;
+    float: left;
+  }

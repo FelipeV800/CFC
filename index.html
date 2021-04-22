@@ -5,13 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
+    <!-- build:css css/index.css -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- endbuild -->
 
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark navbg fixed-top">
         <a class="nav-link" href="./index.html"><span class="oi oi-home home-icon"></span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavCollapse" aria-controls="navbarNavDropdown" aria-expanded="false" aria-level="Toggle Navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,6 +30,7 @@
     </nav>
     <div class="d-flex jumbotron justify-content-between flex-wrap">
         <div class="col-sm-6">
+            <img id="thumbimg" src="images/1.png" alt="cfcLogo">
             <hgroup>
                 <h1>Consultores financieros</h1>
                 <h2>& Contables</h2>
@@ -35,10 +38,10 @@
         </div>
     </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- build:js js/index.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <!-- endbuild -->
   </body>
 </html>
