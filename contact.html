@@ -23,11 +23,11 @@
         </button>
         <div class="collapse navbar-collapse ml-3" id="NavCollapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="nav-link" href="./index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
                 <li class="nav-item"><a class="nav-link" href="./about.html">¿Quienes somos?</a></li>
                 <li class="nav-item"><a class="nav-link" href="./proyects.html">Proyectos</a></li>
                 <li class="nav-item"><a class="nav-link" href="./certificates.html">Certificaciones</a></li>
-                <li class="nav-item"><a class="nav-link" href="./contact.html">Contacto</a></li>
+                <li class="nav-item active"><a class="nav-link" href="./contact.html">Contacto</a></li>
             </ul>
         </div>
     </nav>
@@ -44,7 +44,8 @@
         <div class="container">
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+                    <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contacto</li>
                 </ol>
             </nav>
             <div id="carousel-banner" class="carousel slide" data-ride="carousel">
@@ -71,42 +72,50 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper vel ipsum et tincidunt. Morbi
-                sed venenatis neque, eu tempus nibh. Sed molestie tristique dolor. Praesent iaculis odio at lectus
-                fermentum rutrum. Sed dictum libero justo, sit amet tempor arcu faucibus eu. Quisque fringilla, lorem
-                eget convallis rutrum, erat est sodales sem, id pulvinar augue leo et leo. Nullam venenatis scelerisque
-                lacinia.
 
-                Duis sollicitudin risus a ultricies lobortis. Nam eleifend congue magna, ut vulputate odio auctor vel.
-                Sed et velit bibendum, commodo velit eget, maximus lacus. Integer risus massa, tincidunt eu efficitur
-                nec, tempus non nulla. Pellentesque rhoncus sem ornare suscipit consectetur. Orci varius natoque
-                penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi in purus et augue condimentum
-                facilisis. Donec volutpat ornare diam, eu posuere diam aliquam vitae. Quisque vitae auctor eros. Donec
-                ex turpis, varius tincidunt faucibus nec, imperdiet eu orci. Praesent eu dolor massa.
-
-                Pellentesque risus erat, varius sit amet fringilla quis, interdum ac tellus. Phasellus at semper dui,
-                eget aliquam tortor. Mauris vitae nisl id sem ultrices ullamcorper sit amet sed massa. Sed a hendrerit
-                odio. Vestibulum pharetra ante malesuada, pellentesque eros ut, mattis nisl. Duis interdum odio et elit
-                accumsan, vitae condimentum nisl aliquam. Etiam eget convallis leo. Mauris eleifend dolor eu felis
-                bibendum tincidunt. Nam lectus lectus, porttitor in ullamcorper nec, bibendum sit amet metus. Proin
-                feugiat enim eget faucibus scelerisque. Etiam mollis aliquam tellus id pulvinar. Nam mattis et orci ut
-                luctus. Vivamus vestibulum convallis consequat.
-
-                Aenean gravida ipsum sit amet metus eleifend malesuada. Fusce maximus sem neque, vel tempor orci congue
-                auctor. Aenean luctus fringilla lectus, sollicitudin accumsan urna tincidunt eu. Sed vel felis id diam
-                laoreet cursus. In vel diam sit amet risus tempus pharetra. Vivamus ornare justo nec sagittis facilisis.
-                Nullam aliquam, risus id pellentesque tincidunt, ligula enim lacinia ipsum, non bibendum dui ante tempus
-                erat.
-
-                Phasellus convallis aliquam magna, id rutrum nibh ornare nec. Vestibulum vel aliquam eros, in cursus
-                turpis. In molestie arcu in lacus malesuada molestie. Donec eleifend nisi vel dolor convallis malesuada
-                fermentum eget neque. Vestibulum aliquam feugiat velit, non iaculis magna varius sed. Donec euismod
-                justo at metus porta, porta sodales est scelerisque. Duis enim massa, scelerisque sed nisl eget, feugiat
-                tincidunt elit. Integer efficitur purus malesuada justo interdum aliquam. Nulla dictum arcu dui, sit
-                amet ornare massa maximus eget. Praesent iaculis a metus vulputate tristique. Praesent ac arcu eget
-                augue molestie euismod. In vestibulum ullamcorper varius. Aenean non ligula commodo, suscipit libero
-                sed, feugiat dolor. Sed viverra varius ante, id molestie odio ullamcorper sed. Pellentesque pretium
-                blandit tincidunt. In semper dignissim metus, eu eleifend velit vulputate sed."</p>
+            <h1 id="titlesection">Contactanos</h1>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-9">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                    </div>
+                    <div class="form-group col-sm-3">
+                        <label for="producto">Selecciona el motivo</label>
+                        <select id="producto" class="form-control">
+                            <option>Normas internacionales NIIF</option>
+                            <option>Outsourcing contable y financiero</option>
+                            <option>Auditorias</option>
+                            <option>Asesorias tributarias</option>
+                            <option>Declaracion de renta</option>
+                            <option>Revisoria fiscal</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="comentario">Detalles</label>
+                    <textarea id="comentario" class="form-control" rows="5" placeholder="Cuentanos algunos detalles extras de tu consulta"></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Deseo recibir correos de CFC Consultores financieros & contables
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
         </div>
     </section>
 
