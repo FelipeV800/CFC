@@ -36,12 +36,21 @@ footer h3 {
     margin-top: 3px;
 }
 
+.footerbreadcrumb{
+    margin-left: 15px;
+}
+
 .img-fluid {
-    height: 250px;
+    height: 200%;
     width: 100%;
 }
 
 #titlesection{
     margin-top: 15px;
     margin-bottom: 25px;
+}
+
+#whContact{
+    height: 250px;
+    width: 400px;
 }
