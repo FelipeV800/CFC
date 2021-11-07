@@ -48,9 +48,24 @@ footer h3 {
 #titlesection{
     margin-top: 15px;
     margin-bottom: 25px;
+    color: #67D463;
 }
 
 #whContact{
     height: 250px;
     width: 400px;
+}
+
+#filltext{
+    font-size: 2em;
+    font-family: Monaco,Georgia,Times,serif;
+}
+
+#meme{
+    width: 55%;
+}
+
+#imgtitle{
+    width: 90%;
+    height: 90%;
 }
