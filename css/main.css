@@ -1,3 +1,5 @@
+body, html { overflow-x:hidden; }
+
 .jumbotron {
     background-color:#22346a;
     color:#ffffff;
@@ -49,6 +51,7 @@ footer h3 {
     margin-top: 15px;
     margin-bottom: 25px;
     color: #67D463;
+    text-align: center;
 }
 
 #whContact{
@@ -68,4 +71,13 @@ footer h3 {
 #imgtitle{
     width: 90%;
     height: 90%;
+}
+
+#descriptionClients{
+    font-size: 2em;
+}
+
+#Clients{
+    font-size: 2em;
+    text-align: center;
 }
